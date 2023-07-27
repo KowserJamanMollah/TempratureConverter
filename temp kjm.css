@@ -1,0 +1,105 @@
+:root{
+    --blue: #499ad3;
+    --red: #c5cbb2c3;
+}
+body{
+    background: #ffffff;
+}
+main{
+    width: 95%;
+    max-width: 280px;
+    background: var(--red);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+main h2{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    /*color: #0e5385;*/
+    color: rgb(255, 255, 255);
+    background: var(--blue);
+    padding: 5px 0;
+    border-radius: 7px 7px 0 0;
+}
+main section{
+    padding: 15px 20px;
+    text-align: center;
+}
+main section select{
+    margin-bottom: 20px;
+    background: none!important;
+    border: 3px solid rgb(52, 103, 175)!important;
+    color: rgb(238, 86, 86)!important;
+    font-weight: bolder!important;
+}
+main section select option{
+    background: #d16f6f;
+    color: rgb(255, 254, 254);
+    font-family: monospace;
+    font-weight: bold;
+}
+main section input{
+    margin-bottom: 20px;
+}
+#value2{
+    background: none;
+    border: none;
+    border-bottom: 5px solid rgb(255, 255, 255);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+#info{
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 10px 0!important;
+}
+main section button{
+    display: inline-block;
+    width: 100%;
+    border: none;
+    background: var(--blue);
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    outline: none;
+}
+main section button:active{
+    transform: scale(1.1);
+}
+main h3{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    /*color: #0e5385;*/
+    color: rgb(0, 0, 0);
+    background: ;
+    padding: 0px 0;
+    border-radius: 0px 0px 0 0;
+}
+main h4{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    font-weight: 800;
+    /*color: #0e5385;*/
+    color: rgb(0, 0, 0);
+    background: ;
+    padding: 0px 0;
+    border-radius: 0px 0px 0 0;
+}
